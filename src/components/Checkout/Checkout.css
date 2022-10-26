@@ -1,0 +1,65 @@
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    div.checkout-container{
+        width: 100%;
+        padding-top: 1.5rem;
+        align-items: center;
+    }
+
+    .checkout-container hr{
+        width: 100%;
+    }
+
+    div.big-container{
+        flex-direction: column;
+    }
+
+    form.form-container, div.form-container{
+        width: 100%;
+        
+    }
+
+    div.recipt-container{
+        width: 100%;
+    }
+}
+
+.checkout-container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 60%;
+    gap: 1rem;
+}
+
+.confirmed-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.confirmed-container > * {
+    max-width: 90vw;
+}
+
+div.form-container{
+    display: flex;
+    align-items: center;
+}
+
+.errors{
+    color: red;
+    font-size: 0.5rem;
+    margin-left: auto;
+    margin-top: -1rem;
+}

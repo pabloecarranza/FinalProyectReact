@@ -1,0 +1,12 @@
+
+.category-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+
+.itemlist-container{
+    min-height: 100vh;
+}

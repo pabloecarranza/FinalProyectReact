@@ -1,0 +1,16 @@
+
+
+.slide-image, .slide{
+  height: 100%;
+}
+
+.carousel .thumbs-wrapper{
+  display: none;
+}
+
+.carousel-status{
+  width: 40px;
+}
+
+
+

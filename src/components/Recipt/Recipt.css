@@ -1,0 +1,24 @@
+.recipt-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 1.2rem;
+}
+
+.recipt-text > * {
+    font-size: 1rem;
+}
+
+.total-price{
+    text-decoration: bold;
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.recipt-container Button{
+    width: 100%;
+}

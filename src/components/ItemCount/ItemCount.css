@@ -1,0 +1,48 @@
+
+
+.all-buttons{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-evenly;
+}
+
+.counter-p{
+    font-size: 1.3rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.stock-products{
+    display: flex;
+}
+
+.stock-products p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+
+.cart-button{
+    width: 100%;
+}
+
+.after-shop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    div.categories-container{
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-gap:0.5rem;
+    }
+
+    div.categorymain-container{
+        width: 100%;
+    }
+}
+
+.categories{
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+h2.hometitle{
+    margin: 1.9rem;
+    font-weight: 500;
+    border-bottom: 3px solid #2634b4;
+    font-size: 2rem;
+}
+
+.categories-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+
+    
+}
+
+.categorymain-container{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    transition: all 0.5s ease-out;
+
+}
+
+.categorymain-container:hover .categorytext-container{
+    transform: scale(.98);
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.categorymain-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+.categorytext-container{
+    position: absolute;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.categorytext-container h2{
+    color: white;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    text-transform: capitalize;
+}

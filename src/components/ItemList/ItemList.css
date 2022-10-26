@@ -1,0 +1,39 @@
+@media only screen and (min-width: 200px) and (max-width: 767px){
+    div.item-container{
+        margin: 0.5rem;
+        width: 150px;
+        height: 300px;
+    }
+
+    div.item-img{
+        height: 210px;
+        justify-content: center;
+    }
+
+    div.item{
+        margin: 0;
+    }
+}
+
+
+.item{display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.8rem;}
+
+.item-container{
+    margin: 1.5rem;
+}
+
+.item-text-container{
+    text-align: center;
+}
+
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    
+}
